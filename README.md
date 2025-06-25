@@ -1,90 +1,49 @@
-Projeto Lugares Favoritos (SPA com React)
-Este projeto é uma Single Page Application (SPA) desenvolvida com React que permite aos usuários marcar e gerenciar seus lugares favoritos em um mapa interativo.
+Meus Lugares Favoritos 🗺️
+Desenvolvimento de um Diário de Bordo Geográfico com React
+Uma Single Page Application (SPA) para marcar e gerir os seus locais favoritos num mapa interativo. Nunca mais se esqueça daquele restaurante incrível ou daquela vista deslumbrante que descobriu!
 
-Visão Geral
-O sistema permite que o usuário:
+🎯 Sobre o Projeto
+Este projeto foi desenvolvido como uma solução para um problema comum: a dificuldade de registar e revisitar lugares especiais que descobrimos. A aplicação permite que o utilizador seja o curador do seu próprio mapa, adicionando locais com nome e descrição, de forma simples e visual.
 
-Visualize sua localização atual em um mapa.
+✨ Funcionalidades
+📍 Mapa Interativo: Exibe a localização do utilizador e os marcadores dos locais favoritos.
 
-Adicione novos locais favoritos clicando diretamente no mapa.
+➕ Adição por Clique: Adicione um novo local simplesmente clicando no mapa.
 
-Salve, visualize, edite e exclua locais (CRUD completo).
+📝 CRUD Completo:
 
-Filtre os locais salvos por nome.
+Criar: Salve novos locais com nome e descrição.
 
-Utilize a aplicação em dois idiomas: Português e Inglês.
+Ler: Visualize todos os locais salvos numa lista organizada.
 
-Toda a persistência de dados é simulada utilizando o Local Storage do navegador, e o roteamento é gerenciado pelo React Router.
+Atualizar: Edite as informações de um local existente.
 
-Tecnologias Utilizadas
-React 18+
+Excluir: Remova um local da sua lista.
 
-Vite como ferramenta de build
+🔍 Filtro Dinâmico: Encontre locais rapidamente com um filtro por nome.
 
-React Router Dom para roteamento
+📱 Design Responsivo: Interface otimizada para desktops e dispositivos móveis.
 
-React Leaflet para o mapa interativo (baseado em OpenStreetMap)
+🌍 Internacionalização (i18n): Suporte completo para Português (pt-BR) e Inglês (en-US).
 
-Tailwind CSS para estilização responsiva
+🛠️ Tecnologias Utilizadas
+A aplicação foi construída com as mais modernas ferramentas do ecossistema JavaScript:
 
-i18next para internacionalização (i18n)
+| Tecnologia | Descrição |
+| React | Biblioteca para construção de interfaces reativas. |
+| Vite | Ferramenta de build de última geração. |
+| React Router | Para gestão de rotas do lado do cliente (SPA). |
+| Tailwind CSS | Framework CSS para estilização rápida e utilitária. |
+| React Leaflet | Integração de mapas interativos (OpenStreetMap). |
+| i18next | Framework para internacionalização. |
+| React Hook Form | Validação de formulários de alta performance. |
+| Local Storage | Simulação de um backend para persistência de dados. |
 
-React Hook Form para validação de formulários
+🚀 Como Executar o Projeto
+Para executar este projeto localmente, siga os passos abaixo.
 
-Funcionalidades
-Mapa Interativo: Exibe a localização do usuário e os marcadores dos locais favoritos.
-
-CRUD de Locais:
-
-Create: Adiciona um novo local clicando no mapa, com nome e descrição.
-
-Read: Lista todos os locais salvos com um filtro de busca.
-
-Update: Edita as informações de um local existente.
-
-Delete: Remove um local da lista.
-
-Responsividade: A interface se adapta a diferentes tamanhos de tela (mobile e desktop).
-
-Internacionalização (i18n): Suporte para Português (pt-BR) e Inglês (en-US), com um seletor de idioma funcional.
-
-Validação de Formulários: Campos de nome e descrição são validados.
-
-Instalação e Execução
 Pré-requisitos
 Node.js (versão 18 ou superior)
 
 npm ou yarn
-
-Passos
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-
-Instale as dependências:
-
-npm install
-
-Execute o projeto em modo de desenvolvimento:
-
-npm run dev
-
-A aplicação estará disponível em http://localhost:5173.
-
-Estrutura do Projeto
-O projeto é organizado na seguinte estrutura de pastas:
-
-/src
-├── api/          # Simulação do backend (localStorage)
-├── components/   # Componentes reutilizáveis
-├── context/      # Contexto React para estado global
-├── hooks/        # Hooks customizados
-├── i18n/         # Configuração de internacionalização
-├── pages/        # Componentes de página
-├── routes/       # Definição das rotas
-├── styles/       # Estilos globais
-├── utils/        # Funções utilitárias (validação)
-├── App.jsx       # Componente raiz
-└── main.jsx      # Ponto de entrada da aplicação
 
