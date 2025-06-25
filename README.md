@@ -1,4 +1,5 @@
 Meus Lugares Favoritos 🗺️
+
 Desenvolvimento de um Diário de Bordo Geográfico com React
 Uma Single Page Application (SPA) para marcar e gerir os seus locais favoritos num mapa interativo. Nunca mais se esqueça daquele restaurante incrível ou daquela vista deslumbrante que descobriu!
 
