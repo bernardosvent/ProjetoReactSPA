@@ -6,6 +6,7 @@ Uma Single Page Application (SPA) para marcar e gerir os seus locais favoritos n
 Este projeto foi desenvolvido como uma solução para um problema comum: a dificuldade de registar e revisitar lugares especiais que descobrimos. A aplicação permite que o utilizador seja o curador do seu próprio mapa, adicionando locais com nome e descrição, de forma simples e visual.
 
 ✨ Funcionalidades
+
 📍 Mapa Interativo: Exibe a localização do utilizador e os marcadores dos locais favoritos.
 
 ➕ Adição por Clique: Adicione um novo local simplesmente clicando no mapa.
@@ -41,6 +42,37 @@ A aplicação foi construída com as mais modernas ferramentas do ecossistema Ja
 
 🚀 Como Executar o Projeto
 Para executar este projeto localmente, siga os passos abaixo.
+
+Pré-requisitos
+Node.js (versão 18 ou superior)
+
+npm ou yarn
+
+Instalação
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+Navegue para a pasta do projeto:
+
+cd seu-repositorio
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute a aplicação em modo de desenvolvimento:
+
+npm run dev
+
+
+Abra http://localhost:5173 no seu navegador para ver a aplicação.
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o ficheiro LICENSE.md para mais detalhes.
 
 Pré-requisitos
 Node.js (versão 18 ou superior)
