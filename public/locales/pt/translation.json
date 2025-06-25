@@ -1,0 +1,39 @@
+{
+  "header": {
+    "title": "Meus Lugares Favoritos"
+  },
+  "form": {
+    "title_new": "Adicionar Novo Lugar",
+    "title_edit": "Editar Lugar",
+    "name_label": "Nome",
+    "name_placeholder": "Ex: Minha casa",
+    "description_label": "Descrição",
+    "description_placeholder": "Um lugar especial...",
+    "error_name_required": "O nome é obrigatório.",
+    "error_name_min_length": "O nome deve ter pelo menos 3 caracteres.",
+    "error_description_required": "A descrição é obrigatória."
+  },
+  "buttons": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "confirm_delete": "Confirmar Exclusão",
+    "add_new": "Adicionar Novo Lugar"
+  },
+  "places_list": {
+    "title": "Lugares Salvos",
+    "filter_placeholder": "Filtrar por nome...",
+    "no_places": "Nenhum lugar salvo ainda. Clique no mapa para adicionar um!",
+    "loading": "Carregando lugares..."
+  },
+  "map": {
+    "popup_edit": "Você está editando este ponto.",
+    "popup_new": "Adicionar novo lugar aqui?"
+  },
+  "not_found": {
+    "title": "Página não encontrada",
+    "message": "A página que você está procurando não existe.",
+    "go_home": "Voltar para a página inicial"
+  }
+}

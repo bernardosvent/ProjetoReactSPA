@@ -1,0 +1,39 @@
+{
+  "header": {
+    "title": "My Favorite Places"
+  },
+  "form": {
+    "title_new": "Add New Place",
+    "title_edit": "Edit Place",
+    "name_label": "Name",
+    "name_placeholder": "E.g.: My home",
+    "description_label": "Description",
+    "description_placeholder": "A special place...",
+    "error_name_required": "Name is required.",
+    "error_name_min_length": "Name must be at least 3 characters long.",
+    "error_description_required": "Description is required."
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm_delete": "Confirm Deletion",
+    "add_new": "Add New Place"
+  },
+  "places_list": {
+    "title": "Saved Places",
+    "filter_placeholder": "Filter by name...",
+    "no_places": "No places saved yet. Click on the map to add one!",
+    "loading": "Loading places..."
+  },
+  "map": {
+    "popup_edit": "You are editing this point.",
+    "popup_new": "Add new place here?"
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "go_home": "Go back to the homepage"
+  }
+}
